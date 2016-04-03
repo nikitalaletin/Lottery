@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>management_page</title>
+    <link rel="stylesheet" type=text/css href="css/stylesheet.css"/>
+</head>
+<body>
+<div id="findwinner"><span>Winner: </span><input type="text" placeholder="The winner is......" id="winner"><input
+        type="submit" value="DO IT" id="random"></div>
+<div class="registration">
+
+    <table>
+        <caption>REGISTRATION</caption>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstname" placeholder=" Enter your name"/></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lastname" placeholder=" Enter your lastname"/></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" placeholder=" example@example.com"/></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="tel" name="phone" placeholder=" 012-345-6789"/></td>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="birthday"/></td>
+        </tr>
+    </table>
+    <input type="submit" value="Save" id="save"/>
+</div>
+<br>
+
+<div class="table">
+    <table border="1" cellpadding="1" cellspacing="1" class="test" id="mytable">
+        <tr>
+            <th>Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date of Birth</th>
+        </tr>
+    </table>
+</div>
+
+<script src='js/jquery.js'></script>
+<script src='js/script.js'></script>
+</body>
+</html>

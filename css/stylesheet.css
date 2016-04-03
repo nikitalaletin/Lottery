@@ -1,0 +1,22 @@
+table, td, th {
+    border: 2px solid #005d7d;
+    border-collapse:collapse;
+    margin:5px 5px 5px 0px;
+    height:35px;
+    white-space: nowrap;
+    padding:5px 10px;
+}
+form {
+    position: absolute;
+    z-index: 101;
+    display:none;
+    width: 225px;
+    border: 2px solid black;
+    margin-top:50px;
+    margin-left: 200px;
+    background: cornflowerblue;
+    padding: 10px;
+}
+#mytable td:last-child {
+    border: 2px solid #FFF;
+}
